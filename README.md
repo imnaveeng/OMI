@@ -1,0 +1,2 @@
+# OMI
+My mini project
