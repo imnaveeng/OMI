@@ -1,0 +1,11 @@
+<center><img src="heheh.png" class="avatar">
+    <h1>login here</h1>
+         <form method="post" action="login.php">
+         <p>username</p>
+         <input type="text" name="username" placeholder="enter username">
+             <p>password</p>
+         <input type="password" name="password"
+                placeholder="enter the password">
+        <input type="submit" name="submit" value="login">
+             
+         </form></center>

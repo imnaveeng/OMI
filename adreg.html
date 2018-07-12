@@ -1,0 +1,79 @@
+<html>
+<head><style>
+ 
+h1{
+    
+    color:BLACK;
+    font-style: italic;
+    font-size: 50px;
+    
+}
+h3{
+    color: blueviolet;
+    font-size: 40px;
+    font-style: italic;
+}
+.in p{
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+    color: lightgreen;  
+    font-size: 38px; 
+    
+
+}
+.in{
+    background-color: rgba(0,0,0,0.5);
+    width: 450px;
+}
+.in input[type="number"], input[type="text"]{
+    border: none;
+    border-bottom: 5px solid  lightblue;
+
+    
+    height: 40px;
+    font-size: 26px;
+    font-family:cursive;
+    color: black;
+}
+
+.in input[type="submit"]{
+    border: none;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 18px;
+    background: #1c8adb;
+    width: 200px;
+
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    background-color: pink;
+}
+    </style>
+    </head>
+     
+<body>
+   <center><h1>ADMIN REGISTRATION</h1>
+       
+       
+       <div class="in">
+           <form method="post" action="adreg.php"> 
+    <p>enter roll name</p>
+    <input type="text" name="username" placeholder="enter username">
+    <p>firstname</p>
+     <input type="text" name="firstname" placeholder="enterfirstname">
+    <p>lastname</p>
+     <input type="text" name="lastname" placeholder="enter lastname">
+               <p>your password</p>
+    <input type="text" name="password" placeholder="enter ur password"><br>
+    <input type="submit" name="submit" value="register">
+    </form>
+    
+    
+    
+    </div>
+    </center>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head><title>DELETE Page</title>
+<style>
+#container{
+width: 100%;
+height:100%;
+background-color: dodgerblue; 
+}
+#container p{
+
+float: left;
+color: darkred;
+font-size: 50px;
+}
+    
+       
+#container input[type="text"]{
+color: orange;
+height: 40px;
+font-size: 30px;
+}
+#container input[type="submit"]{
+height: 40px;
+border-radius: 15px;
+border: none;
+color: black;
+background-color: white;
+}
+#container input[type="submit"]:hover{
+cursor: pointer;
+color: white;
+background-color: black;
+}
+</style>
+</head>
+<body>
+ <div id="container">
+     <table>
+        
+ <form method="POST" action="del.php">
+     <tr><td><p>The Medicine to be deleted: </p></td>
+         <td><input type="text" name="medicine" placeholder="Enter the medicine name"></td>
+     <tr><td></td><td align="center"><input type="submit" name="submit"></td></tr>
+</form>
+     </table>
+</div>
+</body>
+</html>
